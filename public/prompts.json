@@ -1,0 +1,215 @@
+{
+  "bijgewerkt": "2026-10-14T13:11:14.226Z",
+  "set": "V1.1",
+  "rubrieken": [
+    "Samenvatten",
+    "Beantwoorden",
+    "Opstellen",
+    "Agenda en vergaderingen",
+    "Opvolgen en plannen",
+    "Toon en nalezen",
+    "Uit het traject"
+  ],
+  "prompts": [
+    {
+      "id": "27b99984-d0c7-f111-aaad-7c1e5234264e",
+      "rubriek": "Samenvatten",
+      "titel": "Vat deze mailwisseling samen",
+      "prompt": "Vat deze mailwisseling samen in maximaal vijf punten. Zet bovenaan wat er van mij wordt verwacht en voor wanneer.",
+      "uitleg": "Open de mail. Klik rechtsboven in Outlook op Copilot, plak de prompt met Ctrl+V en druk op Enter."
+    },
+    {
+      "id": "37fc9d8a-d0c7-f111-aaad-7c1e5234264e",
+      "rubriek": "Samenvatten",
+      "titel": "Wat heb ik gemist?",
+      "prompt": "Welke mails van de afgelopen [aantal] dagen vragen nog om een reactie van mij? Zet ze op volgorde van urgentie en noem per mail in één zin waarom.",
+      "uitleg": "Klik rechtsboven in Outlook op Copilot. Er hoeft geen mail open te staan. Plak de prompt en vul het aantal dagen in."
+    },
+    {
+      "id": "38fc9d8a-d0c7-f111-aaad-7c1e5234264e",
+      "rubriek": "Samenvatten",
+      "titel": "Haal de actiepunten eruit",
+      "prompt": "Maak een lijst van alle actiepunten in deze mail, met per punt wie het moet doen en de deadline. Staat er geen deadline, schrijf dan 'geen deadline genoemd'.",
+      "uitleg": "Open de mail. Klik rechtsboven op Copilot en plak de prompt."
+    },
+    {
+      "id": "29befb85-d0c7-f111-aaad-7c1e5234231f",
+      "rubriek": "Samenvatten",
+      "titel": "Leg het simpel uit",
+      "prompt": "Leg in gewone taal uit wat deze mail voor mij betekent en wat ik moet doen. Vermijd vaktermen.",
+      "uitleg": "Handig bij een lange of technische mail. Open de mail, klik rechtsboven op Copilot en plak de prompt."
+    },
+    {
+      "id": "2abefb85-d0c7-f111-aaad-7c1e5234231f",
+      "rubriek": "Beantwoorden",
+      "titel": "Vriendelijk nee zeggen",
+      "prompt": "Schrijf een vriendelijk maar duidelijk antwoord waarin ik [het verzoek] afwijs. Geef kort de reden: [reden]. Bied als alternatief aan: [alternatief].",
+      "uitleg": "Klik op Beantwoorden. Klik in de werkbalk op het Copilot-logo en kies Concept met Copilot. Plak de prompt, vul de blokhaken in en klik op Genereren."
+    },
+    {
+      "id": "52efb488-d0c7-f111-aaaf-0022489cbf24",
+      "rubriek": "Beantwoorden",
+      "titel": "Bevestig een afspraak",
+      "prompt": "Schrijf een korte reactie waarin ik de afspraak bevestig op [datum en tijd] in [locatie of Teams]. Vraag of ik nog iets moet voorbereiden.",
+      "uitleg": "Klik op Beantwoorden, dan op het Copilot-logo en Concept met Copilot. Plak de prompt en vul de blokhaken in."
+    },
+    {
+      "id": "57efb488-d0c7-f111-aaaf-0022489cbf24",
+      "rubriek": "Beantwoorden",
+      "titel": "Vraag om meer informatie",
+      "prompt": "Schrijf een beleefd antwoord waarin ik vraag om de informatie die nog ontbreekt: [wat je mist]. Leg uit dat ik daarna verder kan.",
+      "uitleg": "Klik op Beantwoorden, dan op het Copilot-logo en Concept met Copilot. Plak de prompt en vul in wat je mist."
+    },
+    {
+      "id": "2bbefb85-d0c7-f111-aaad-7c1e5234231f",
+      "rubriek": "Beantwoorden",
+      "titel": "Reageer op een klacht",
+      "prompt": "Schrijf een empathisch antwoord op deze klacht. Erken het probleem, bied excuses aan waar dat past en leg uit wat we gaan doen: [oplossing]. Houd het onder de 150 woorden.",
+      "uitleg": "Klik op Beantwoorden, dan op het Copilot-logo en Concept met Copilot. Lees het concept altijd goed na voordat je het verstuurt."
+    },
+    {
+      "id": "47fc9d8a-d0c7-f111-aaad-7c1e5234264e",
+      "rubriek": "Beantwoorden",
+      "titel": "Stuur een beleefde herinnering",
+      "prompt": "Schrijf een vriendelijke herinnering aan [naam] over [onderwerp]. Ik had gevraagd om [wat] vóór [datum]. Houd de toon positief en kort.",
+      "uitleg": "Klik op Beantwoorden op je eerdere mail, dan op het Copilot-logo en Concept met Copilot. Plak de prompt en vul de blokhaken in."
+    },
+    {
+      "id": "48fc9d8a-d0c7-f111-aaad-7c1e5234264e",
+      "rubriek": "Opstellen",
+      "titel": "Mail uit steekwoorden",
+      "prompt": "Schrijf een duidelijke zakelijke mail op basis van deze steekwoorden: [steekwoorden]. De lezer is [wie]. Maximaal 150 woorden, met een concrete vraag aan het eind.",
+      "uitleg": "Klik op Nieuwe e-mail, dan in de werkbalk op het Copilot-logo en Concept met Copilot. Plak de prompt en vul je steekwoorden in."
+    },
+    {
+      "id": "58efb488-d0c7-f111-aaaf-0022489cbf24",
+      "rubriek": "Opstellen",
+      "titel": "Aankondiging voor het team",
+      "prompt": "Schrijf een korte aankondiging voor het team over [onderwerp]. Vermeld wat er verandert, vanaf wanneer, en bij wie ze terechtkunnen met vragen.",
+      "uitleg": "Klik op Nieuwe e-mail, dan op het Copilot-logo en Concept met Copilot. Plak de prompt en vul het onderwerp in."
+    },
+    {
+      "id": "49fc9d8a-d0c7-f111-aaad-7c1e5234264e",
+      "rubriek": "Opstellen",
+      "titel": "Kennismaken met een nieuwe klant",
+      "prompt": "Schrijf een kennismakingsmail aan [naam] van [organisatie]. We hebben elkaar gesproken over [onderwerp]. Stel als vervolgstap voor: [vervolgstap]. Houd de toon persoonlijk.",
+      "uitleg": "Klik op Nieuwe e-mail, dan op het Copilot-logo en Concept met Copilot. Plak de prompt en vul de blokhaken in."
+    },
+    {
+      "id": "2cbefb85-d0c7-f111-aaad-7c1e5234231f",
+      "rubriek": "Opstellen",
+      "titel": "Uitnodiging met agenda",
+      "prompt": "Schrijf een uitnodiging voor een overleg over [onderwerp]. Noem het doel, de agendapunten [agendapunten] en wat deelnemers vooraf moeten lezen.",
+      "uitleg": "Maak een nieuwe afspraak of mail. Klik op het Copilot-logo en Concept met Copilot, plak de prompt en vul de blokhaken in."
+    },
+    {
+      "id": "2dbefb85-d0c7-f111-aaad-7c1e5234231f",
+      "rubriek": "Agenda en vergaderingen",
+      "titel": "Mijn dag in één oogopslag",
+      "prompt": "Welke afspraken heb ik [vandaag of morgen]? Geef per afspraak in twee zinnen waar het over gaat en welke recente mails erover gaan.",
+      "uitleg": "Klik rechtsboven in Outlook op Copilot, plak de prompt en kies vandaag of morgen."
+    },
+    {
+      "id": "5e1ffb8b-d0c7-f111-aaad-7c1e5234231f",
+      "rubriek": "Agenda en vergaderingen",
+      "titel": "Maak een agenda voor een overleg",
+      "prompt": "Maak een agenda van [aantal] minuten voor een overleg over [onderwerp], met een tijd per agendapunt en aan het eind tijd voor besluiten.",
+      "uitleg": "Klik rechtsboven op Copilot en plak de prompt. Kopieer het resultaat daarna naar je uitnodiging."
+    },
+    {
+      "id": "5f1ffb8b-d0c7-f111-aaad-7c1e5234231f",
+      "rubriek": "Agenda en vergaderingen",
+      "titel": "Verslag na het overleg",
+      "prompt": "Schrijf een mail aan de deelnemers van het overleg over [onderwerp] met de besluiten, de actiepunten met eigenaar en de datum van het volgende overleg. Mijn aantekeningen: [plak hier je aantekeningen].",
+      "uitleg": "Klik op Nieuwe e-mail, dan op het Copilot-logo en Concept met Copilot. Plak de prompt en zet je aantekeningen op de plek van de blokhaken."
+    },
+    {
+      "id": "6defb488-d0c7-f111-aaaf-0022489cbf24",
+      "rubriek": "Agenda en vergaderingen",
+      "titel": "Ruimte maken in je week",
+      "prompt": "Welke afspraken in mijn agenda van volgende week zou ik kunnen inkorten, verplaatsen of overslaan? Geef per afspraak een korte reden.",
+      "uitleg": "Klik rechtsboven in Outlook op Copilot en plak de prompt. Copilot doet een voorstel; je past je agenda zelf aan."
+    },
+    {
+      "id": "6eefb488-d0c7-f111-aaaf-0022489cbf24",
+      "rubriek": "Opvolgen en plannen",
+      "titel": "Waar wacht ik nog op?",
+      "prompt": "Op welke mails die ik de afgelopen twee weken heb verstuurd, heb ik nog geen antwoord gekregen? Geef per mail de ontvanger en het onderwerp.",
+      "uitleg": "Klik rechtsboven in Outlook op Copilot en plak de prompt."
+    },
+    {
+      "id": "6fefb488-d0c7-f111-aaaf-0022489cbf24",
+      "rubriek": "Opvolgen en plannen",
+      "titel": "Maak er taken van",
+      "prompt": "Zet de actiepunten uit deze mail om in een takenlijst met korte, duidelijke taaknamen en een voorstel voor de deadline.",
+      "uitleg": "Open de mail, klik rechtsboven op Copilot en plak de prompt. Zet de taken daarna in To Do of in je agenda."
+    },
+    {
+      "id": "4efc9d8a-d0c7-f111-aaad-7c1e5234264e",
+      "rubriek": "Opvolgen en plannen",
+      "titel": "Wie moet het weten?",
+      "prompt": "Wie moet ik na deze mail op de hoogte brengen, en wat moet die persoon weten? Schrijf per persoon één zin.",
+      "uitleg": "Open de mail, klik rechtsboven op Copilot en plak de prompt."
+    },
+    {
+      "id": "611ffb8b-d0c7-f111-aaad-7c1e5234231f",
+      "rubriek": "Toon en nalezen",
+      "titel": "Maak het korter",
+      "prompt": "Maak deze mail korter en duidelijker. Behoud alle afspraken en data, en gebruik korte zinnen: [plak hier je mail]",
+      "uitleg": "Klik rechtsboven op Copilot. Plak de prompt en zet je mailtekst op de plek van de blokhaken."
+    },
+    {
+      "id": "621ffb8b-d0c7-f111-aaad-7c1e5234231f",
+      "rubriek": "Toon en nalezen",
+      "titel": "Pas de toon aan",
+      "prompt": "Herschrijf deze mail in een [formelere of informelere] toon, zonder de inhoud te veranderen: [plak hier je mail]",
+      "uitleg": "Klik rechtsboven op Copilot. Plak de prompt, kies de toon en zet je mailtekst op de plek van de blokhaken."
+    },
+    {
+      "id": "4ffc9d8a-d0c7-f111-aaad-7c1e5234264e",
+      "rubriek": "Toon en nalezen",
+      "titel": "Laatste check voor verzenden",
+      "prompt": "Lees deze mail na op onduidelijkheden, ontbrekende informatie en een verkeerde toon. Geef eerst je drie belangrijkste verbeterpunten en daarna een verbeterde versie: [plak hier je mail]",
+      "uitleg": "Klik rechtsboven op Copilot. Plak de prompt en zet je mailtekst op de plek van de blokhaken. Of gebruik in je concept het Copilot-logo en Coaching met Copilot."
+    },
+    {
+      "id": "70efb488-d0c7-f111-aaaf-0022489cbf24",
+      "rubriek": "Toon en nalezen",
+      "titel": "Vertaal naar het Engels",
+      "prompt": "Vertaal deze mail naar zakelijk Engels. Behoud de toon en de opbouw: [plak hier je mail]",
+      "uitleg": "Klik rechtsboven op Copilot. Plak de prompt en zet je mailtekst op de plek van de blokhaken."
+    },
+    {
+      "id": "a8cb0ec7-bfc0-f111-aaaf-0022489cbf24",
+      "rubriek": "Uit het traject",
+      "titel": "Vat een lange mailwisseling samen",
+      "prompt": "Vat deze mailwisseling samen in drie punten. Welke vragen staan nog open en wat wordt er van mij verwacht?",
+      "omschrijving": "Lees in een paar regels waar een lange mailwisseling over gaat, zonder alle mails door te lezen.",
+      "week": 1
+    },
+    {
+      "id": "afcb0ec7-bfc0-f111-aaaf-0022489cbf24",
+      "rubriek": "Uit het traject",
+      "titel": "Laat een antwoord schrijven",
+      "prompt": "Schrijf een kort en vriendelijk antwoord. Bevestig de afspraak op donderdag, vraag of de offerte vrijdag binnen kan zijn en sluit af met mijn naam.",
+      "omschrijving": "Laat Copilot een eerste versie van je antwoord schrijven. Jij leest het na en verstuurt.",
+      "week": 1
+    },
+    {
+      "id": "629b4635-8cc1-f111-aaaf-7c1e5234264e",
+      "rubriek": "Uit het traject",
+      "titel": "Laat je mail nakijken",
+      "prompt": "Lees de mail hieronder kritisch na. Is de toon vriendelijk, is mijn vraag duidelijk en wat kan korter? Geef daarna een verbeterde versie.\n\nMail: [plak hier je mail]",
+      "omschrijving": "Laat Copilot je mail nalezen voordat je hem verstuurt. Handig bij een lastige mail, bijvoorbeeld als je nee moet zeggen.",
+      "week": 1
+    },
+    {
+      "id": "d0d50ec7-bfc0-f111-aaaf-0022489cbf24",
+      "rubriek": "Uit het traject",
+      "titel": "Bereid een overleg voor",
+      "prompt": "Ik heb straks een overleg met [naam] over [onderwerp]. Zet op een rij wat we hier de afgelopen maand over gemaild en besproken hebben en welke vragen ik kan stellen.",
+      "omschrijving": "Heb je straks een afspraak? Laat Copilot ophalen wat er eerder over het onderwerp is gemaild en besproken. Je stapt voorbereid het overleg in.",
+      "week": 2
+    }
+  ]
+}

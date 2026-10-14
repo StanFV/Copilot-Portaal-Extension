@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="nl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Copilot-prompts in Outlook · Bruinsma</title>
+    <meta name="description" content="Outlook-invoegtoepassing van Bruinsma: kant-en-klare Copilot-prompts met één klik in het lint van Outlook." />
+    <link rel="icon" href="./assets/favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@500&family=Work+Sans:wght@300;400;500;600&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="./src/stijl.css" />
+  </head>
+  <body class="pagina">
+    <header class="kop">
+      <img src="./assets/logo-negatief.svg" alt="Bruinsma Kantoor en ICT" class="kop-logo" width="117" height="40" />
+      <span class="kop-titel">Copilot Portaal</span>
+    </header>
+
+    <main class="pagina-inhoud">
+      <div>
+        <h1><span class="accent">Copilot-prompts</span> in Outlook</h1>
+        <p class="intro">
+          Een knop in het lint van Outlook met kant-en-klare prompts voor Microsoft 365 Copilot: mails samenvatten,
+          beantwoorden, opstellen en je agenda voorbereiden. Kopiëren, plakken in Copilot, klaar.
+        </p>
+        <div class="knoppen">
+          <a class="knop" href="./manifest.xml" download="bruinsma-copilot-prompts.xml">Download het manifest</a>
+          <a class="knop stil" href="https://cursus.bruinsma-ict.nl/" target="_blank" rel="noopener noreferrer">Naar het Copilot Portaal</a>
+        </div>
+
+        <h2>Installeren voor de hele organisatie</h2>
+        <p class="klein">Voor de IT-beheerder. Zo krijgen collega's de knop vanzelf in Outlook, op het web, in de nieuwe Outlook en in de klassieke Outlook voor Windows.</p>
+        <ol class="stappen">
+          <li>Ga naar het <a href="https://admin.microsoft.com/#/Settings/IntegratedApps" target="_blank" rel="noopener noreferrer">Microsoft 365-beheercentrum</a> &gt; <strong>Instellingen</strong> &gt; <strong>Geïntegreerde apps</strong>.</li>
+          <li>Kies <strong>Aangepaste apps uploaden</strong> en als type <strong>Office-invoegtoepassing</strong>.</li>
+          <li>Kies <strong>Link naar het manifestbestand opgeven</strong> en plak:<br /><code id="manifest-url">https://stanfv.github.io/Copilot-Portaal-Extension/manifest.xml</code></li>
+          <li>Kies wie de invoegtoepassing krijgt (bijvoorbeeld de deelnemers van het traject) en rond de stappen af.</li>
+        </ol>
+        <p class="klein">Het kan een paar uur, soms tot 24 uur, duren voordat de knop bij iedereen in Outlook staat.</p>
+
+        <h2>Zelf toevoegen</h2>
+        <p class="klein">Alleen als je organisatie dat toestaat.</p>
+        <ol class="stappen">
+          <li>Download het manifest met de knop hierboven.</li>
+          <li>Open <a href="https://aka.ms/olksideload" target="_blank" rel="noopener noreferrer">aka.ms/olksideload</a>. Outlook op het web opent met het venster <strong>Invoegtoepassingen</strong>.</li>
+          <li>Kies <strong>Mijn invoegtoepassingen</strong> &gt; <strong>Aangepaste invoegtoepassing toevoegen</strong> &gt; <strong>Uit bestand toevoegen</strong> en kies het gedownloade bestand.</li>
+          <li>De knop verschijnt daarna ook in Outlook op je computer.</li>
+        </ol>
+
+        <h2>Gebruiken</h2>
+        <ol class="stappen">
+          <li>Open een mail, of begin een nieuwe.</li>
+          <li>Klik in het lint op <strong>Copilot-prompts</strong>. Zie je hem niet, kijk dan onder <strong>Apps</strong> of de drie puntjes.</li>
+          <li>Kies een prompt, klik op <strong>Kopieer prompt</strong> en plak hem met <strong>Ctrl+V</strong> in Copilot.</li>
+        </ol>
+
+        <h2>Privacy</h2>
+        <div class="kader klein">
+          De invoegtoepassing leest je mail niet en stuurt niets naar Bruinsma of anderen. Hij vraagt de laagste rechten die Outlook kent.
+          Alleen je favoriete prompts worden bewaard, in je eigen Outlook-instellingen.
+          Vragen? Mail naar <a href="mailto:help@bruinsma-ict.nl">help@bruinsma-ict.nl</a>.
+        </div>
+      </div>
+
+      <aside class="voorbeeld" aria-label="Voorbeeld van het paneel">
+        <div class="voorbeeld-label">Zo ziet het paneel eruit</div>
+        <iframe src="./voorbeeld.html" title="Voorbeeld van het paneel Copilot-prompts"></iframe>
+      </aside>
+    </main>
+  </body>
+</html>

@@ -1,0 +1,17 @@
+{
+  "name": "copilot-portaal-extension",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Outlook-invoegtoepassing van Bruinsma: een bibliotheek met Copilot-prompts in het lint van Outlook.",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc --noEmit && vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "@types/office-js": "^1.0.612",
+    "typescript": "^5.9.3",
+    "vite": "^5.4.21"
+  }
+}

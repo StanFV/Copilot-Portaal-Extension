@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="nl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Copilot-prompts · Bruinsma</title>
+    <link rel="icon" href="./assets/favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500;600&display=swap" rel="stylesheet" />
+    <!-- Office.js moet van het Microsoft-CDN komen. Buiten Outlook (bijvoorbeeld op de installatiepagina) werkt het paneel ook. -->
+    <script src="https://appsforoffice.microsoft.com/lib/1/hosted/office.js"></script>
+  </head>
+  <body class="paneel">
+    <header class="kop">
+      <img src="./assets/logo-negatief.svg" alt="Bruinsma" class="kop-logo" width="88" height="30" />
+      <span class="kop-titel">Copilot-prompts</span>
+    </header>
+    <div class="zoekbalk">
+      <label class="zoekveld">
+        <span class="sr-only">Zoek een prompt</span>
+        <svg viewBox="0 0 24 24" width="16" height="16" aria-hidden="true"><circle cx="11" cy="11" r="6.5" /><path d="M16 16l4.5 4.5" /></svg>
+        <input id="zoek" type="search" placeholder="Zoek een prompt" autocomplete="off" />
+      </label>
+      <div id="rubrieken" class="rubrieken" role="group" aria-label="Rubrieken"></div>
+    </div>
+    <main id="inhoud" class="inhoud" aria-live="polite">
+      <p class="laden">Prompts laden…</p>
+    </main>
+    <footer class="voet">
+      Meer leren? Ga naar het <a href="https://cursus.bruinsma-ict.nl/" target="_blank" rel="noopener noreferrer">Copilot Portaal</a>.<br />
+      Vragen of feedback? Mail naar <a href="mailto:help@bruinsma-ict.nl">help@bruinsma-ict.nl</a>.
+    </footer>
+    <div id="toast" class="toast" role="status" hidden></div>
+    <script type="module" src="./src/taskpane.ts"></script>
+  </body>
+</html>
